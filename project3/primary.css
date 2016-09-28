@@ -1,0 +1,53 @@
+.tools{
+	position: relative;
+	display: inline-block;
+
+}
+
+
+.tools a{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d5cea6+0,c9c190+40,b7ad70+100;Brown+3D */
+background: #d5cea6; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #d5cea6 0%, #c9c190 40%, #b7ad70 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  #d5cea6 0%,#c9c190 40%,#b7ad70 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  #d5cea6 0%,#c9c190 40%,#b7ad70 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5cea6', endColorstr='#b7ad70',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+     display: block;
+     color: #101010;
+     text-decoration: none;
+     padding: 2px 10px;
+     border:1px solid #ccc;
+	}
+
+.tools > a{
+	padding-right: 100px;
+}
+
+.tools a span{
+		width: 0;
+		height: 0;
+		border-left: 5px solid transparent ;
+		border-right: 5px solid transparent;
+		border-top: 5px solid #050;
+		display: inline-block;
+		margin: 5px 5px;
+	}
+	
+.tools .tool ul{
+		list-style-type: none;
+		margin:0;
+		padding: 0;
+		position: absolute;
+		width: 100%;
+		display: none;
+	}
+
+.tools:hover .tool ul{
+      display: block;
+}
+
+
+.tools .tool ul a:hover{
+          background: #a00;
+}
