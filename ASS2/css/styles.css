@@ -1,0 +1,64 @@
+*{
+	box-sizing: border-box;;
+}
+.navbar {
+	height: 100px;
+	background-color: #00FFFF;
+	border: 0;
+	margin-bottom: 0;
+}
+
+.navbar-header .navbar-toggle{
+	border: 2px solid #8A0808 ;
+
+}
+
+.navbar-header .navbar-toggle .icon-bar{
+           background-color: #8A0808;
+           height: 3px;
+}
+
+#article-header{
+	margin:20px 0px 20px; 
+	color: #8A0808;
+}
+
+.navbar-header .navbar-brand{
+	font-size: 50px;
+	margin-top: 10px;
+
+}
+#main-section{
+	font-weight: bold;
+	padding: 0 50px;
+	text-indent: 50px;
+	text-align: justify;
+	box-sizing: border-box;   
+}
+
+li {
+	background-color: #00FFFF;
+}
+
+li a{
+	text-align: center;
+	color: black;
+	font-weight: bold;
+}
+
+#drop-menu {
+	border:0;
+	padding: 0;
+}
+
+#drop-menu ul{
+	margin :0;
+}
+
+hr{
+	color: black;
+	margin:0 50px;
+}
+
+
+
